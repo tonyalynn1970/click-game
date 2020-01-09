@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 ## Built With
 
 * HTML5
-* CSS3
+* CSS
 * JavaScript 
 * [Bootstrap](http://getbootstrap.com/) - Framework
 * [React](https://reactjs.org/) 
