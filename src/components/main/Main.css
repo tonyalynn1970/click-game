@@ -1,0 +1,9 @@
+.jumbostron {
+    width: 1000px
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: orange;
+}

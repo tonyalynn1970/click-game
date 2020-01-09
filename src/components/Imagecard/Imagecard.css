@@ -1,0 +1,9 @@
+.cell {
+    height: 200px;
+    width: 200px;
+}
+
+.card {
+    display: inline;
+    margin: 10px;
+}

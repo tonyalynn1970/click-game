@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import Navbar from "./components/navbar/navbar2";
+import Navbar from "./components/navbar/navbarc";
 import Container from "./components/container/container";
 import "./App.css";
-import Imagecard from "./components/Imagecard";
+import Imagecard from "./components/Imagecard/Imagecard";
 import Header from "./components/main/Main";
-import Pictures from "./components/pictures";
 import Images from "./imagepaths.json";
 
 class App extends Component {
@@ -33,7 +32,7 @@ class App extends Component {
     return array.sort(() => Math.random() - 0.5);
   }
   componentDidMount() {
-    this.setState({ images: this.shuffle(Pictures) });
+    this.setState({ images: this.shuffle(Images) });
   }
   render() {
     return (
