@@ -5,11 +5,11 @@ function Header() {
   return (
     <div className="jumbotron text-center">
       <div className="Header">
-        <h1>Clicky-Game</h1>
-        <h2>
-          Click on a picture to earn points, but dont click the same picture
-          more than once or you lose
-        </h2>
+        <h1>Click-Game</h1>
+        <h4>
+          Click on the pictures and Earn Point. NEVER click the same picture
+          twice if you do Sorry you lose. (Then start over again!!)
+        </h4>
       </div>
     </div>
   );

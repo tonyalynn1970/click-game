@@ -5,7 +5,7 @@ function Navbar({ score, highScore }) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="">
-          <h1>Clicky Game</h1>
+          <h1>Click Game</h1>
         </a>
         <h2>
           <span>Click an Image to Begin! </span>
